@@ -13,6 +13,7 @@ import org.junit.runner.RunWith;
 @SpringBootTest
 class EcommerceApplicationTests {
 
+	@SuppressWarnings("unused")
 	@Autowired
     private ProductoRepository productoRepository;
 
